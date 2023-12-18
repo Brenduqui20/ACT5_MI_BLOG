@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color:blue;
+    font-family: Georgia, "Brush Script MT", Times, serif;
+    font-size: 2vw;
+    margin: 1em;
+    text-align: center;
+    height: 20px;
+    padding: 20px;
+  }
+  
+  .img3 {
+    width: 80%;
+    margin: 0 100px;
+    border: 15px solid rgb(111, 150, 151);
+  }
+  
+  p {
+    font-size: 3vh;
+    text-indent: 50px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    padding-top: 3vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    text-align: justify;
+  }
+  
+  @media (max-width: 720px) {
+    .img3 {
+      width: 60%;
+      margin: 0 29px;
+      border: 15px solid rgb(111, 150, 151);
+      align-content: center;
+    }
+  }
